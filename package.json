@@ -1,0 +1,38 @@
+{
+  "name": "procure",
+  "version": "0.1.0",
+  "description": "transport-agnostic file procurer ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martindale/procure.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "fs",
+    "local",
+    "file",
+    "transport",
+    "download"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martindale/procure/issues"
+  },
+  "homepage": "https://github.com/martindale/procure",
+  "devDependencies": {
+    "assert": "^1.1.2",
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "request": "^2.49.0"
+  }
+}
