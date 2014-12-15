@@ -3,6 +3,17 @@ var procure = require('../');
 
 describe('Procure', function() {
   
+  it('should provide a constructor', function() {
+    assert( typeof require('../lib/Procure') , 'function' ); 
+  });
+  
+  it('should successfully construct an instance', function() {
+    var Procure = require('../lib/Procure');
+    var procurer = new Procure();
+    
+    assert( typeof procurer.procure , 'function' );
+  });
+  
   it('should procure local files', function( done ) {
     procure('./test/fixtures/test.json', function( err , content ) {
       assert.ok( content.length );

@@ -1,1 +1,1 @@
-module.exports = require('./lib/Procure');
+module.exports = require('./lib/Procure').prototype.procure;

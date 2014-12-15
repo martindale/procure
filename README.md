@@ -18,3 +18,5 @@ procure('http://www.google.com', function(err, webpage) {
 });
 
 ```
+
+Test coverage can be measured with a simple `npm run coverage`.
