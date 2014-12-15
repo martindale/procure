@@ -21,7 +21,8 @@
     "local",
     "file",
     "transport",
-    "download"
+    "download",
+    "request"
   ],
   "author": "Eric Martindale",
   "license": "MIT",
