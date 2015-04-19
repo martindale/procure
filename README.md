@@ -17,6 +17,10 @@ procure('http://www.google.com', function(err, webpage) {
   // content read over HTTP, unparsed HTML provided
 });
 
+procure('https://api.github.com/repos/martindale/maki/releases', function(err, releases) {
+  // content is a JSON array of releases
+});
+
 ```
 
 Test coverage can be measured with a simple `npm run coverage`.
