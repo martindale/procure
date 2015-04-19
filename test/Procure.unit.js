@@ -28,6 +28,13 @@ describe('Procure', function() {
     });
   });
   
+  it('should provide an error when unable to retrieve a resource', function( done ) {
+    procure('http://localhost:9876', function(err) {
+      assert.ok( err );
+      done();
+    });
+  });
+  
   it('should prefer json for remote files', function( done ) {
     procure('http://maki.ericmartindale.com/examples', function( err , content ) {
       assert.ok( content.length );
