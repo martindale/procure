@@ -1,7 +1,7 @@
 {
   "name": "procure",
   "version": "0.1.4",
-  "description": "transport-agnostic file procurer ",
+  "description": "transport-agnostic file procurer",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -31,12 +31,13 @@
   },
   "homepage": "https://github.com/martindale/procure",
   "devDependencies": {
-    "assert": "^1.1.2",
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5",
-    "mocha": "^2.0.1"
+    "assert": "^1.4.1",
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.5.3",
+    "semistandard": "^9.2.1"
   },
   "dependencies": {
-    "request": "^2.49.0"
+    "request": "^2.79.0"
   }
 }
